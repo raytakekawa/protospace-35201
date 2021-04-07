@@ -1,0 +1,17 @@
+<div class="main">
+  <div class="inner">
+    <div class="form__wrapper">
+      <h2 class="page-heading">新規プロトタイプ投稿</h2>
+        <%# <%= form_with(model: @prototype, local: true) do |form| %>
+          <%# <%= form.text_field :title, placeholder: "プロトタイプの名称" %> 
+          <%# <%= form.text_area :catch_copy, placeholder: "キャッチコピー" %> 
+          <%# <%= form.text_area :concept, placeholder: "コンセプト" %> 
+          <%# <%= form.file_field :image, placeholder: "イメージ" %> 
+          <%# <%= form.submit "保存する" %> 
+        <%# <% end %>  
+        <%# <% @prototypes.each do |form|  %>
+          <%= render partial: "form", locals: { prototype: @prototype } %>
+        <%# <% end %> 
+    </div>
+  </div>
+</div>
